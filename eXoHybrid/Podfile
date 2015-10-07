@@ -1,0 +1,15 @@
+platform :ios, ‘8.0’
+
+workspace 'eXo_HyBrid_Platform'
+xcodeproj 'eXoHyBrid.xcodeproj'
+
+target "eXo" do
+
+    pod 'Fabric'
+    pod 'Crashlytics'
+end
+
+target "eXoTests" do
+    
+
+end

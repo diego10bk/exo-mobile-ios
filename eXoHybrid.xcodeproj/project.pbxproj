@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4320391BBB8DA900DE98CB /* eXoAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4320381BBB8DA900DE98CB /* eXoAppDelegate.swift */; };
+		9C4320401BBB8DA900DE98CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43203E1BBB8DA900DE98CB /* Main.storyboard */; };
+		9C4320421BBB8DA900DE98CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4320411BBB8DA900DE98CB /* Assets.xcassets */; };
+		9C4320451BBB8DA900DE98CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4320431BBB8DA900DE98CB /* LaunchScreen.storyboard */; };
+		9C4320501BBB8DA900DE98CB /* eXoHybridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43204F1BBB8DA900DE98CB /* eXoHybridTests.swift */; };
+		9C43205B1BBB8DA900DE98CB /* eXoHybridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43205A1BBB8DA900DE98CB /* eXoHybridUITests.swift */; };
+		9C43206F1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43206E1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C4320711BBB914C00DE98CB /* ActvityStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4320701BBB914C00DE98CB /* ActvityStreamViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C4320731BBBA17D00DE98CB /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4320721BBBA17D00DE98CB /* ConnectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C4320751BBBA1B300DE98CB /* NotifiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4320741BBBA1B300DE98CB /* NotifiationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C4320791BBBD42500DE98CB /* Tool-Objective-C.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4320781BBBD42500DE98CB /* Tool-Objective-C.m */; settings = {ASSET_TAGS = (); }; };
+		9C43207E1BBBDDB900DE98CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43207D1BBBDDB900DE98CB /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9C93058C1BC21EED0085DB76 /* PlatformServerVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C93058B1BC21EED0085DB76 /* PlatformServerVersion.swift */; settings = {ASSET_TAGS = (); }; };
+		9C9305911BC220260085DB76 /* LoginProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305901BC220260085DB76 /* LoginProxy.swift */; settings = {ASSET_TAGS = (); }; };
+		9C9305931BC258790085DB76 /* SocialUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305921BC258790085DB76 /* SocialUserProfile.swift */; settings = {ASSET_TAGS = (); }; };
+		9C9305951BC258CE0085DB76 /* SocialUserProfileProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305941BC258CE0085DB76 /* SocialUserProfileProxy.swift */; settings = {ASSET_TAGS = (); }; };
+		9C9305971BC258EF0085DB76 /* SocialProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305961BC258EF0085DB76 /* SocialProxy.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F421BC3B40E0022716B /* SocialProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F411BC3B40E0022716B /* SocialProxy.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F431BC3B40E0022716B /* SocialProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F411BC3B40E0022716B /* SocialProxy.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F461BC3B42D0022716B /* SocialRestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F471BC3B42D0022716B /* SocialRestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F761BC3B4EE0022716B /* SocialIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F771BC3B4EE0022716B /* SocialIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F781BC3B4EE0022716B /* SocialLike.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F611BC3B4EE0022716B /* SocialLike.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F791BC3B4EE0022716B /* SocialLike.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F611BC3B4EE0022716B /* SocialLike.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7A1BC3B4EE0022716B /* SocialPictureAttach.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F631BC3B4EE0022716B /* SocialPictureAttach.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7B1BC3B4EE0022716B /* SocialPictureAttach.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F631BC3B4EE0022716B /* SocialPictureAttach.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7C1BC3B4EE0022716B /* SocialSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F651BC3B4EE0022716B /* SocialSpace.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7D1BC3B4EE0022716B /* SocialSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F651BC3B4EE0022716B /* SocialSpace.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7E1BC3B4EE0022716B /* SocialUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F671BC3B4EE0022716B /* SocialUserProfile.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F7F1BC3B4EE0022716B /* SocialUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F671BC3B4EE0022716B /* SocialUserProfile.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F801BC3B4EE0022716B /* SocialVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F691BC3B4EE0022716B /* SocialVersion.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F811BC3B4EE0022716B /* SocialVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F691BC3B4EE0022716B /* SocialVersion.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F841BC3B6A90022716B /* MessageComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F851BC3B6A90022716B /* MessageComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F8B1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F8C1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F8E1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7F8F1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FC11BC4C54C0022716B /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FC01BC4C54C0022716B /* ShareViewController.m */; };
+		9CDA7FC41BC4C54C0022716B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA7FC21BC4C54C0022716B /* MainInterface.storyboard */; };
+		9CDA7FC81BC4C54C0022716B /* share-extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9CDA7FBD1BC4C54C0022716B /* share-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9CDA7FDC1BC4C5A80022716B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FCE1BC4C5A80022716B /* Account.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FDD1BC4C5A80022716B /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD01BC4C5A80022716B /* AccountViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FDE1BC4C5A80022716B /* PostActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD21BC4C5A80022716B /* PostActivity.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FDF1BC4C5A80022716B /* PostItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD41BC4C5A80022716B /* PostItem.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FE01BC4C5A80022716B /* share-extension.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD51BC4C5A80022716B /* share-extension.entitlements */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FE11BC4C5A80022716B /* SocialSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD71BC4C5A80022716B /* SocialSpace.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FE21BC4C5A80022716B /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD91BC4C5A80022716B /* SpaceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FE31BC4C5A80022716B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FDB1BC4C5A80022716B /* UploadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A2415A7FE3DFFA6D6CA1CA90 /* libPods-eXoHybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BE39092FE1DECB770DDF3 /* libPods-eXoHybrid.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C43204C1BBB8DA900DE98CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C43202D1BBB8DA900DE98CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4320341BBB8DA900DE98CB;
+			remoteInfo = eXoHybrid;
+		};
+		9C4320571BBB8DA900DE98CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C43202D1BBB8DA900DE98CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4320341BBB8DA900DE98CB;
+			remoteInfo = eXoHybrid;
+		};
+		9CDA7FC61BC4C54C0022716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C43202D1BBB8DA900DE98CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDA7FBC1BC4C54B0022716B;
+			remoteInfo = "share-extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CDA7FCC1BC4C54C0022716B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9CDA7FC81BC4C54C0022716B /* share-extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75CF885B38DD6ACDE83AA23A /* Pods-eXoHybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eXoHybrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-eXoHybrid/Pods-eXoHybrid.release.xcconfig"; sourceTree = "<group>"; };
+		878BE39092FE1DECB770DDF3 /* libPods-eXoHybrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eXoHybrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4320351BBB8DA900DE98CB /* eXoHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eXoHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4320381BBB8DA900DE98CB /* eXoAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eXoAppDelegate.swift; sourceTree = "<group>"; };
+		9C43203F1BBB8DA900DE98CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4320411BBB8DA900DE98CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4320441BBB8DA900DE98CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4320461BBB8DA900DE98CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C43204B1BBB8DA900DE98CB /* eXoHybridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eXoHybridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C43204F1BBB8DA900DE98CB /* eXoHybridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eXoHybridTests.swift; sourceTree = "<group>"; };
+		9C4320511BBB8DA900DE98CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4320561BBB8DA900DE98CB /* eXoHybridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eXoHybridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C43205A1BBB8DA900DE98CB /* eXoHybridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eXoHybridUITests.swift; sourceTree = "<group>"; };
+		9C43205C1BBB8DA900DE98CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C43206E1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXoWebBaseViewController.swift; sourceTree = "<group>"; };
+		9C4320701BBB914C00DE98CB /* ActvityStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActvityStreamViewController.swift; sourceTree = "<group>"; };
+		9C4320721BBBA17D00DE98CB /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		9C4320741BBBA1B300DE98CB /* NotifiationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifiationViewController.swift; sourceTree = "<group>"; };
+		9C4320761BBBD42400DE98CB /* eXoHybrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "eXoHybrid-Bridging-Header.h"; path = "../Sources/Tools/eXoHybrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C4320771BBBD42500DE98CB /* Tool-Objective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tool-Objective-C.h"; sourceTree = "<group>"; };
+		9C4320781BBBD42500DE98CB /* Tool-Objective-C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tool-Objective-C.m"; sourceTree = "<group>"; };
+		9C43207D1BBBDDB900DE98CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C93058B1BC21EED0085DB76 /* PlatformServerVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformServerVersion.swift; sourceTree = "<group>"; };
+		9C9305901BC220260085DB76 /* LoginProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProxy.swift; sourceTree = "<group>"; };
+		9C9305921BC258790085DB76 /* SocialUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialUserProfile.swift; sourceTree = "<group>"; };
+		9C9305941BC258CE0085DB76 /* SocialUserProfileProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialUserProfileProxy.swift; sourceTree = "<group>"; };
+		9C9305961BC258EF0085DB76 /* SocialProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialProxy.swift; sourceTree = "<group>"; };
+		9CDA7F401BC3B40E0022716B /* SocialProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialProxy.h; sourceTree = "<group>"; };
+		9CDA7F411BC3B40E0022716B /* SocialProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialProxy.m; sourceTree = "<group>"; };
+		9CDA7F441BC3B42D0022716B /* SocialRestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialRestConfiguration.h; sourceTree = "<group>"; };
+		9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialRestConfiguration.m; sourceTree = "<group>"; };
+		9CDA7F481BC3B45E0022716B /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		9CDA7F5E1BC3B4EE0022716B /* SocialIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialIdentity.h; sourceTree = "<group>"; };
+		9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialIdentity.m; sourceTree = "<group>"; };
+		9CDA7F601BC3B4EE0022716B /* SocialLike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialLike.h; sourceTree = "<group>"; };
+		9CDA7F611BC3B4EE0022716B /* SocialLike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialLike.m; sourceTree = "<group>"; };
+		9CDA7F621BC3B4EE0022716B /* SocialPictureAttach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialPictureAttach.h; sourceTree = "<group>"; };
+		9CDA7F631BC3B4EE0022716B /* SocialPictureAttach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPictureAttach.m; sourceTree = "<group>"; };
+		9CDA7F641BC3B4EE0022716B /* SocialSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSpace.h; sourceTree = "<group>"; };
+		9CDA7F651BC3B4EE0022716B /* SocialSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSpace.m; sourceTree = "<group>"; };
+		9CDA7F661BC3B4EE0022716B /* SocialUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialUserProfile.h; sourceTree = "<group>"; };
+		9CDA7F671BC3B4EE0022716B /* SocialUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialUserProfile.m; sourceTree = "<group>"; };
+		9CDA7F681BC3B4EE0022716B /* SocialVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialVersion.h; sourceTree = "<group>"; };
+		9CDA7F691BC3B4EE0022716B /* SocialVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialVersion.m; sourceTree = "<group>"; };
+		9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposerViewController.swift; sourceTree = "<group>"; };
+		9CDA7F891BC3CFAE0022716B /* SocialUserProfileProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialUserProfileProxy.h; sourceTree = "<group>"; };
+		9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialUserProfileProxy.m; sourceTree = "<group>"; };
+		9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSelectionViewController.swift; sourceTree = "<group>"; };
+		9CDA7F901BC4C2AB0022716B /* eXoHybrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = eXoHybrid.entitlements; sourceTree = "<group>"; };
+		9CDA7FBD1BC4C54C0022716B /* share-extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "share-extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDA7FBF1BC4C54C0022716B /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		9CDA7FC01BC4C54C0022716B /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		9CDA7FC31BC4C54C0022716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9CDA7FC51BC4C54C0022716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDA7FCD1BC4C5A80022716B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		9CDA7FCE1BC4C5A80022716B /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		9CDA7FCF1BC4C5A80022716B /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		9CDA7FD01BC4C5A80022716B /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		9CDA7FD11BC4C5A80022716B /* PostActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostActivity.h; sourceTree = "<group>"; };
+		9CDA7FD21BC4C5A80022716B /* PostActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostActivity.m; sourceTree = "<group>"; };
+		9CDA7FD31BC4C5A80022716B /* PostItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostItem.h; sourceTree = "<group>"; };
+		9CDA7FD41BC4C5A80022716B /* PostItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostItem.m; sourceTree = "<group>"; };
+		9CDA7FD51BC4C5A80022716B /* share-extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "share-extension.entitlements"; sourceTree = "<group>"; };
+		9CDA7FD61BC4C5A80022716B /* SocialSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSpace.h; sourceTree = "<group>"; };
+		9CDA7FD71BC4C5A80022716B /* SocialSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSpace.m; sourceTree = "<group>"; };
+		9CDA7FD81BC4C5A80022716B /* SpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceViewController.h; sourceTree = "<group>"; };
+		9CDA7FD91BC4C5A80022716B /* SpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceViewController.m; sourceTree = "<group>"; };
+		9CDA7FDA1BC4C5A80022716B /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		9CDA7FDB1BC4C5A80022716B /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		9CDA7FE41BC4C5B70022716B /* extension-defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "extension-defines.h"; sourceTree = "<group>"; };
+		9CDA7FE71BC4C8290022716B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		9CDA7FE91BC4C82C0022716B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		A81A52DD101CBDF4E3FA15E1 /* Pods-eXoHybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eXoHybrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eXoHybrid/Pods-eXoHybrid.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4320321BBB8DA900DE98CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2415A7FE3DFFA6D6CA1CA90 /* libPods-eXoHybrid.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320481BBB8DA900DE98CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320531BBB8DA900DE98CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDA7FBA1BC4C54B0022716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2644483FE3F60945F87576D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878BE39092FE1DECB770DDF3 /* libPods-eXoHybrid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373E0A168E265A6C095AB285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81A52DD101CBDF4E3FA15E1 /* Pods-eXoHybrid.debug.xcconfig */,
+				75CF885B38DD6ACDE83AA23A /* Pods-eXoHybrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C43202C1BBB8DA900DE98CB = {
+			isa = PBXGroup;
+			children = (
+				9C4320371BBB8DA900DE98CB /* eXoHybrid */,
+				9C43204E1BBB8DA900DE98CB /* eXoHybridTests */,
+				9C4320591BBB8DA900DE98CB /* eXoHybridUITests */,
+				9CDA7FBE1BC4C54C0022716B /* share-extension */,
+				9C4320361BBB8DA900DE98CB /* Products */,
+				373E0A168E265A6C095AB285 /* Pods */,
+				2644483FE3F60945F87576D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4320361BBB8DA900DE98CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4320351BBB8DA900DE98CB /* eXoHybrid.app */,
+				9C43204B1BBB8DA900DE98CB /* eXoHybridTests.xctest */,
+				9C4320561BBB8DA900DE98CB /* eXoHybridUITests.xctest */,
+				9CDA7FBD1BC4C54C0022716B /* share-extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4320371BBB8DA900DE98CB /* eXoHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F901BC4C2AB0022716B /* eXoHybrid.entitlements */,
+				9C4320381BBB8DA900DE98CB /* eXoAppDelegate.swift */,
+				9C4320681BBB8EBD00DE98CB /* Resources */,
+				9C4320691BBB8EBD00DE98CB /* Sources */,
+				9C43203E1BBB8DA900DE98CB /* Main.storyboard */,
+				9CDA7AC21BC3B2C50022716B /* Src-ObjectiveC */,
+				9C4320411BBB8DA900DE98CB /* Assets.xcassets */,
+				9C4320431BBB8DA900DE98CB /* LaunchScreen.storyboard */,
+				9C4320461BBB8DA900DE98CB /* Info.plist */,
+			);
+			path = eXoHybrid;
+			sourceTree = "<group>";
+		};
+		9C43204E1BBB8DA900DE98CB /* eXoHybridTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C43204F1BBB8DA900DE98CB /* eXoHybridTests.swift */,
+				9C4320511BBB8DA900DE98CB /* Info.plist */,
+			);
+			path = eXoHybridTests;
+			sourceTree = "<group>";
+		};
+		9C4320591BBB8DA900DE98CB /* eXoHybridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C43205A1BBB8DA900DE98CB /* eXoHybridUITests.swift */,
+				9C43205C1BBB8DA900DE98CB /* Info.plist */,
+			);
+			path = eXoHybridUITests;
+			sourceTree = "<group>";
+		};
+		9C4320681BBB8EBD00DE98CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C4320691BBB8EBD00DE98CB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9C93058E1BC220000085DB76 /* DataManager */,
+				9C43206A1BBB8F1100DE98CB /* Controllers */,
+				9C43206B1BBB8F1100DE98CB /* Models */,
+				9C43206D1BBB8F1100DE98CB /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9C43206A1BBB8F1100DE98CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F821BC3B6870022716B /* WebBase */,
+				9C43207D1BBBDDB900DE98CB /* LoginViewController.swift */,
+				9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */,
+				9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C43206B1BBB8F1100DE98CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C93058B1BC21EED0085DB76 /* PlatformServerVersion.swift */,
+				9C9305921BC258790085DB76 /* SocialUserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C43206C1BBB8F1100DE98CB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C4320771BBBD42500DE98CB /* Tool-Objective-C.h */,
+				9C4320781BBBD42500DE98CB /* Tool-Objective-C.m */,
+			);
+			name = Tools;
+			path = ../Sources/Tools;
+			sourceTree = "<group>";
+		};
+		9C43206D1BBB8F1100DE98CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C93058E1BC220000085DB76 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C93058F1BC220150085DB76 /* Proxies */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		9C93058F1BC220150085DB76 /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				9C9305901BC220260085DB76 /* LoginProxy.swift */,
+				9C9305941BC258CE0085DB76 /* SocialUserProfileProxy.swift */,
+				9C9305961BC258EF0085DB76 /* SocialProxy.swift */,
+			);
+			path = Proxies;
+			sourceTree = "<group>";
+		};
+		9CDA7AC21BC3B2C50022716B /* Src-ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				9C4320761BBBD42400DE98CB /* eXoHybrid-Bridging-Header.h */,
+				9C43206C1BBB8F1100DE98CB /* Tools */,
+				9CDA7F481BC3B45E0022716B /* defines.h */,
+				9CDA7F3E1BC3B40E0022716B /* DataManager */,
+			);
+			path = "Src-ObjectiveC";
+			sourceTree = "<group>";
+		};
+		9CDA7F3E1BC3B40E0022716B /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F4D1BC3B4EE0022716B /* Model */,
+				9CDA7F3F1BC3B40E0022716B /* Proxies */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		9CDA7F3F1BC3B40E0022716B /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F441BC3B42D0022716B /* SocialRestConfiguration.h */,
+				9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */,
+				9CDA7F401BC3B40E0022716B /* SocialProxy.h */,
+				9CDA7F411BC3B40E0022716B /* SocialProxy.m */,
+				9CDA7F891BC3CFAE0022716B /* SocialUserProfileProxy.h */,
+				9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */,
+			);
+			path = Proxies;
+			sourceTree = "<group>";
+		};
+		9CDA7F4D1BC3B4EE0022716B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F591BC3B4EE0022716B /* Social */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CDA7F591BC3B4EE0022716B /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7F5E1BC3B4EE0022716B /* SocialIdentity.h */,
+				9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */,
+				9CDA7F601BC3B4EE0022716B /* SocialLike.h */,
+				9CDA7F611BC3B4EE0022716B /* SocialLike.m */,
+				9CDA7F621BC3B4EE0022716B /* SocialPictureAttach.h */,
+				9CDA7F631BC3B4EE0022716B /* SocialPictureAttach.m */,
+				9CDA7F641BC3B4EE0022716B /* SocialSpace.h */,
+				9CDA7F651BC3B4EE0022716B /* SocialSpace.m */,
+				9CDA7F661BC3B4EE0022716B /* SocialUserProfile.h */,
+				9CDA7F671BC3B4EE0022716B /* SocialUserProfile.m */,
+				9CDA7F681BC3B4EE0022716B /* SocialVersion.h */,
+				9CDA7F691BC3B4EE0022716B /* SocialVersion.m */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		9CDA7F821BC3B6870022716B /* WebBase */ = {
+			isa = PBXGroup;
+			children = (
+				9C43206E1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift */,
+				9C4320701BBB914C00DE98CB /* ActvityStreamViewController.swift */,
+				9C4320721BBBA17D00DE98CB /* ConnectionViewController.swift */,
+				9C4320741BBBA1B300DE98CB /* NotifiationViewController.swift */,
+			);
+			name = WebBase;
+			sourceTree = "<group>";
+		};
+		9CDA7FBE1BC4C54C0022716B /* share-extension */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7FE51BC4C5BC0022716B /* Models */,
+				9CDA7FE41BC4C5B70022716B /* extension-defines.h */,
+				9CDA7FCF1BC4C5A80022716B /* AccountViewController.h */,
+				9CDA7FD01BC4C5A80022716B /* AccountViewController.m */,
+				9CDA7FD51BC4C5A80022716B /* share-extension.entitlements */,
+				9CDA7FD81BC4C5A80022716B /* SpaceViewController.h */,
+				9CDA7FD91BC4C5A80022716B /* SpaceViewController.m */,
+				9CDA7FDA1BC4C5A80022716B /* UploadViewController.h */,
+				9CDA7FDB1BC4C5A80022716B /* UploadViewController.m */,
+				9CDA7FBF1BC4C54C0022716B /* ShareViewController.h */,
+				9CDA7FC01BC4C54C0022716B /* ShareViewController.m */,
+				9CDA7FC21BC4C54C0022716B /* MainInterface.storyboard */,
+				9CDA7FC51BC4C54C0022716B /* Info.plist */,
+			);
+			path = "share-extension";
+			sourceTree = "<group>";
+		};
+		9CDA7FE51BC4C5BC0022716B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA7FCD1BC4C5A80022716B /* Account.h */,
+				9CDA7FCE1BC4C5A80022716B /* Account.m */,
+				9CDA7FD11BC4C5A80022716B /* PostActivity.h */,
+				9CDA7FD21BC4C5A80022716B /* PostActivity.m */,
+				9CDA7FD31BC4C5A80022716B /* PostItem.h */,
+				9CDA7FD41BC4C5A80022716B /* PostItem.m */,
+				9CDA7FD61BC4C5A80022716B /* SocialSpace.h */,
+				9CDA7FD71BC4C5A80022716B /* SocialSpace.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4320341BBB8DA900DE98CB /* eXoHybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C43205F1BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybrid" */;
+			buildPhases = (
+				38F9FB13669C2572A78D264A /* Check Pods Manifest.lock */,
+				9C4320311BBB8DA900DE98CB /* Sources */,
+				9C4320321BBB8DA900DE98CB /* Frameworks */,
+				9C4320331BBB8DA900DE98CB /* Resources */,
+				754DF24321C6F39D6B4EED8B /* Copy Pods Resources */,
+				9CDA7FCC1BC4C54C0022716B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDA7FC71BC4C54C0022716B /* PBXTargetDependency */,
+			);
+			name = eXoHybrid;
+			productName = eXoHybrid;
+			productReference = 9C4320351BBB8DA900DE98CB /* eXoHybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C43204A1BBB8DA900DE98CB /* eXoHybridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4320621BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybridTests" */;
+			buildPhases = (
+				9C4320471BBB8DA900DE98CB /* Sources */,
+				9C4320481BBB8DA900DE98CB /* Frameworks */,
+				9C4320491BBB8DA900DE98CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C43204D1BBB8DA900DE98CB /* PBXTargetDependency */,
+			);
+			name = eXoHybridTests;
+			productName = eXoHybridTests;
+			productReference = 9C43204B1BBB8DA900DE98CB /* eXoHybridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C4320551BBB8DA900DE98CB /* eXoHybridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4320651BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybridUITests" */;
+			buildPhases = (
+				9C4320521BBB8DA900DE98CB /* Sources */,
+				9C4320531BBB8DA900DE98CB /* Frameworks */,
+				9C4320541BBB8DA900DE98CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4320581BBB8DA900DE98CB /* PBXTargetDependency */,
+			);
+			name = eXoHybridUITests;
+			productName = eXoHybridUITests;
+			productReference = 9C4320561BBB8DA900DE98CB /* eXoHybridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9CDA7FBC1BC4C54B0022716B /* share-extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDA7FC91BC4C54C0022716B /* Build configuration list for PBXNativeTarget "share-extension" */;
+			buildPhases = (
+				9CDA7FB91BC4C54B0022716B /* Sources */,
+				9CDA7FBA1BC4C54B0022716B /* Frameworks */,
+				9CDA7FBB1BC4C54B0022716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "share-extension";
+			productName = "share-extension";
+			productReference = 9CDA7FBD1BC4C54C0022716B /* share-extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C43202D1BBB8DA900DE98CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = eXo;
+				TargetAttributes = {
+					9C4320341BBB8DA900DE98CB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FEM998T42U;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9C43204A1BBB8DA900DE98CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9C4320341BBB8DA900DE98CB;
+					};
+					9C4320551BBB8DA900DE98CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9C4320341BBB8DA900DE98CB;
+					};
+					9CDA7FBC1BC4C54B0022716B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FEM998T42U;
+					};
+				};
+			};
+			buildConfigurationList = 9C4320301BBB8DA900DE98CB /* Build configuration list for PBXProject "eXoHybrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 9C43202C1BBB8DA900DE98CB;
+			productRefGroup = 9C4320361BBB8DA900DE98CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4320341BBB8DA900DE98CB /* eXoHybrid */,
+				9C43204A1BBB8DA900DE98CB /* eXoHybridTests */,
+				9C4320551BBB8DA900DE98CB /* eXoHybridUITests */,
+				9CDA7FBC1BC4C54B0022716B /* share-extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4320331BBB8DA900DE98CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4320451BBB8DA900DE98CB /* LaunchScreen.storyboard in Resources */,
+				9C4320421BBB8DA900DE98CB /* Assets.xcassets in Resources */,
+				9C4320401BBB8DA900DE98CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320491BBB8DA900DE98CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320541BBB8DA900DE98CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDA7FBB1BC4C54B0022716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA7FC41BC4C54C0022716B /* MainInterface.storyboard in Resources */,
+				9CDA7FE01BC4C5A80022716B /* share-extension.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F9FB13669C2572A78D264A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		754DF24321C6F39D6B4EED8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eXoHybrid/Pods-eXoHybrid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4320311BBB8DA900DE98CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA7F801BC3B4EE0022716B /* SocialVersion.m in Sources */,
+				9CDA7F421BC3B40E0022716B /* SocialProxy.m in Sources */,
+				9C93058C1BC21EED0085DB76 /* PlatformServerVersion.swift in Sources */,
+				9CDA7F7A1BC3B4EE0022716B /* SocialPictureAttach.m in Sources */,
+				9C9305931BC258790085DB76 /* SocialUserProfile.swift in Sources */,
+				9C43207E1BBBDDB900DE98CB /* LoginViewController.swift in Sources */,
+				9C4320731BBBA17D00DE98CB /* ConnectionViewController.swift in Sources */,
+				9CDA7F841BC3B6A90022716B /* MessageComposerViewController.swift in Sources */,
+				9C4320391BBB8DA900DE98CB /* eXoAppDelegate.swift in Sources */,
+				9C9305911BC220260085DB76 /* LoginProxy.swift in Sources */,
+				9CDA7F8B1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */,
+				9CDA7F761BC3B4EE0022716B /* SocialIdentity.m in Sources */,
+				9CDA7F461BC3B42D0022716B /* SocialRestConfiguration.m in Sources */,
+				9CDA7F7E1BC3B4EE0022716B /* SocialUserProfile.m in Sources */,
+				9C4320751BBBA1B300DE98CB /* NotifiationViewController.swift in Sources */,
+				9C4320711BBB914C00DE98CB /* ActvityStreamViewController.swift in Sources */,
+				9CDA7F7C1BC3B4EE0022716B /* SocialSpace.m in Sources */,
+				9C9305951BC258CE0085DB76 /* SocialUserProfileProxy.swift in Sources */,
+				9C9305971BC258EF0085DB76 /* SocialProxy.swift in Sources */,
+				9C43206F1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift in Sources */,
+				9C4320791BBBD42500DE98CB /* Tool-Objective-C.m in Sources */,
+				9CDA7F8E1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */,
+				9CDA7F781BC3B4EE0022716B /* SocialLike.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320471BBB8DA900DE98CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA7F8C1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */,
+				9CDA7F7B1BC3B4EE0022716B /* SocialPictureAttach.m in Sources */,
+				9CDA7F471BC3B42D0022716B /* SocialRestConfiguration.m in Sources */,
+				9C4320501BBB8DA900DE98CB /* eXoHybridTests.swift in Sources */,
+				9CDA7F431BC3B40E0022716B /* SocialProxy.m in Sources */,
+				9CDA7F811BC3B4EE0022716B /* SocialVersion.m in Sources */,
+				9CDA7F8F1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */,
+				9CDA7F771BC3B4EE0022716B /* SocialIdentity.m in Sources */,
+				9CDA7F791BC3B4EE0022716B /* SocialLike.m in Sources */,
+				9CDA7F851BC3B6A90022716B /* MessageComposerViewController.swift in Sources */,
+				9CDA7F7F1BC3B4EE0022716B /* SocialUserProfile.m in Sources */,
+				9CDA7F7D1BC3B4EE0022716B /* SocialSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4320521BBB8DA900DE98CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C43205B1BBB8DA900DE98CB /* eXoHybridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDA7FB91BC4C54B0022716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA7FDE1BC4C5A80022716B /* PostActivity.m in Sources */,
+				9CDA7FC11BC4C54C0022716B /* ShareViewController.m in Sources */,
+				9CDA7FDD1BC4C5A80022716B /* AccountViewController.m in Sources */,
+				9CDA7FE11BC4C5A80022716B /* SocialSpace.m in Sources */,
+				9CDA7FE21BC4C5A80022716B /* SpaceViewController.m in Sources */,
+				9CDA7FE31BC4C5A80022716B /* UploadViewController.m in Sources */,
+				9CDA7FDC1BC4C5A80022716B /* Account.m in Sources */,
+				9CDA7FDF1BC4C5A80022716B /* PostItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C43204D1BBB8DA900DE98CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4320341BBB8DA900DE98CB /* eXoHybrid */;
+			targetProxy = 9C43204C1BBB8DA900DE98CB /* PBXContainerItemProxy */;
+		};
+		9C4320581BBB8DA900DE98CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4320341BBB8DA900DE98CB /* eXoHybrid */;
+			targetProxy = 9C4320571BBB8DA900DE98CB /* PBXContainerItemProxy */;
+		};
+		9CDA7FC71BC4C54C0022716B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDA7FBC1BC4C54B0022716B /* share-extension */;
+			targetProxy = 9CDA7FC61BC4C54C0022716B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C43203E1BBB8DA900DE98CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C43203F1BBB8DA900DE98CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4320431BBB8DA900DE98CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4320441BBB8DA900DE98CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9CDA7FC21BC4C54C0022716B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDA7FC31BC4C54C0022716B /* Base */,
+				9CDA7FE71BC4C8290022716B /* fr */,
+				9CDA7FE91BC4C82C0022716B /* en */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C43205D1BBB8DA900DE98CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C43205E1BBB8DA900DE98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4320601BBB8DA900DE98CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81A52DD101CBDF4E3FA15E1 /* Pods-eXoHybrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = eXoHybrid/eXoHybrid.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = eXoHybrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.mob.eXoPlatformiPHone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eXoHybrid/Sources/Tools/eXoHybrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C4320611BBB8DA900DE98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CF885B38DD6ACDE83AA23A /* Pods-eXoHybrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = eXoHybrid/eXoHybrid.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = eXoHybrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.mob.eXoPlatformiPHone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eXoHybrid/Sources/Tools/eXoHybrid-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9C4320631BBB8DA900DE98CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eXoHybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.eXoHybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eXoHybrid.app/eXoHybrid";
+			};
+			name = Debug;
+		};
+		9C4320641BBB8DA900DE98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eXoHybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.eXoHybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eXoHybrid.app/eXoHybrid";
+			};
+			name = Release;
+		};
+		9C4320661BBB8DA900DE98CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eXoHybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.eXoHybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eXoHybrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9C4320671BBB8DA900DE98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = eXoHybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exoplatform.eXoHybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = eXoHybrid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		9CDA7FCA1BC4C54C0022716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "share-extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exoplatform.mob.eXoPlatformiPHone.share-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9CDA7FCB1BC4C54C0022716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "share-extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exoplatform.mob.eXoPlatformiPHone.share-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4320301BBB8DA900DE98CB /* Build configuration list for PBXProject "eXoHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C43205D1BBB8DA900DE98CB /* Debug */,
+				9C43205E1BBB8DA900DE98CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C43205F1BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4320601BBB8DA900DE98CB /* Debug */,
+				9C4320611BBB8DA900DE98CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4320621BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4320631BBB8DA900DE98CB /* Debug */,
+				9C4320641BBB8DA900DE98CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4320651BBB8DA900DE98CB /* Build configuration list for PBXNativeTarget "eXoHybridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4320661BBB8DA900DE98CB /* Debug */,
+				9C4320671BBB8DA900DE98CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDA7FC91BC4C54C0022716B /* Build configuration list for PBXNativeTarget "share-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDA7FCA1BC4C54C0022716B /* Debug */,
+				9CDA7FCB1BC4C54C0022716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C43202D1BBB8DA900DE98CB /* Project object */;
+}
