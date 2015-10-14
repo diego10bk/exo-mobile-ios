@@ -12,17 +12,41 @@ class ActvityStreamViewController: EXoWebBaseViewController {
 
     @IBOutlet weak var shareButton: UIButton!
     override func viewDidLoad() {
-        self.platformURL = "http://192.168.1.67:8080/portal/intranet"
+        self.platformURL = Config.baseURL + "/portal/intranet"
         
         super.viewDidLoad()
+        
+        Tool_Objective_C.shareExtensionSave()
         
         self.shareButton.layer.cornerRadius = self.shareButton.frame.size.width/2
         self.shareButton.layer.shadowColor = UIColor.redColor().CGColor
         self.shareButton.layer.shadowOffset = CGSizeMake(-1,3)
+        
+        
+        var groupUserDefaults = NSUserDefaults(suiteName: "group.com.exoplatform.mob.eXoPlatformiPHone")
+        groupUserDefaults?.setFloat(1.25, forKey: "test")
+        print (groupUserDefaults?.synchronize())
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func updateAccountInfoForShareExtension () {
+
+        let accounts = [["username":"toan", "password":"123456", "serverURL":"192.168.1.67:8080", "accountName": "local"]]
+        var userDefaults = NSUserDefaults.init(suiteName: "group.com.exoplatform.mob.eXoPlatformiPHone")
+        userDefaults!.setObject(accounts, forKey: ShareExtension.ALL_ACCOUNTS)
+
+        for cookie:NSHTTPCookie in (NSHTTPCookieStorage.sharedHTTPCookieStorage().cookies)! {
+            print(cookie.description)
+            if (cookie.name == Cookies.username) {
+                NSUserDefaults.standardUserDefaults().setValue(cookie.value, forKey: ShareExtension.USERNAME)
+            }
+        }
+        
     }
     
     @IBAction func shareAction(sender: AnyObject) {
@@ -34,6 +58,7 @@ class ActvityStreamViewController: EXoWebBaseViewController {
             let s = String (data: data!, encoding: NSUTF8StringEncoding)
             print(s)
         };
+        
         var username:String?
         for cookie:NSHTTPCookie in (NSHTTPCookieStorage.sharedHTTPCookieStorage().cookies)! {
             print(cookie.description)

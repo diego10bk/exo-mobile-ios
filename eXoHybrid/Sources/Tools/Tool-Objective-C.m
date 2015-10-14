@@ -20,6 +20,19 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation Tool_Objective_C
 
++(void) shareExtensionSave {
+    
+    NSUserDefaults * groupUserDefaults = [[NSUserDefaults alloc] initWithSuiteName: @"group.com.exoplatform.mob.eXoPlatformiPHone"];
+    NSMutableArray * list_accounts = [[NSMutableArray alloc] init];
+    
+        NSDictionary * account = @{@"username":@"toan", @"password":@"", @"serverURL":@"http://192.168.1.67:8080", @"accountName": @"local"};
+        [list_accounts addObject:account];
+    
+    [groupUserDefaults setObject:list_accounts forKey:@"exo_share_all_usernames"];
+
+
+}
+
 // insert an icon to the left of the text field
 + (void)configureTextField:(UITextField *)tf withIcon:(NSString *)iconName
 {

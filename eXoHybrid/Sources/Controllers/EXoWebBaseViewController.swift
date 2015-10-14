@@ -19,19 +19,17 @@ class EXoWebBaseViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         let wkWebViewConfiguration = WKWebViewConfiguration()
-        let contentController = WKUserContentController()
-        let source = "document.getElementById(\"NavigationPortlet\").style.color = \"gray\";"
-        let script = WKUserScript(source: source, injectionTime: .AtDocumentEnd, forMainFrameOnly: true)
-        contentController.addUserScript(script)
-        wkWebViewConfiguration.userContentController = contentController
+//        let contentController = WKUserContentController()
+//        let source = "document.getElementById(\"NavigationPortlet\").style.color = \"gray\";"
+//        let script = WKUserScript(source: source, injectionTime: .AtDocumentEnd, forMainFrameOnly: true)
+//        contentController.addUserScript(script)
+//        wkWebViewConfiguration.userContentController = contentController
         webView = WKWebView (frame:CGRectOffset(self.view.bounds,0,0), configuration: wkWebViewConfiguration)
         webView?.navigationDelegate = self;
         let url = NSURL(string: platformURL!)
         let request = NSURLRequest(URL: url!)
         webView?.loadRequest(request)
         self.webViewContainer.addSubview(webView!)
-//        let constraints = [NSLayoutConstraint(item: webView!, attribute: .Leading, relatedBy: .Equal, toItem: self.webViewContainer, attribute: .Leading, multiplier: 1, constant: 0), NSLayoutConstraint(item: webView!, attribute: .Top, relatedBy: .Equal, toItem: self.webViewContainer, attribute: .Top, multiplier: 1, constant: 0),  NSLayoutConstraint(item: webView!, attribute: .Trailing, relatedBy: .Equal, toItem: self.webViewContainer, attribute: .Trailing, multiplier: 1, constant: 0), NSLayoutConstraint(item: webView!, attribute: .Bottom, relatedBy: .Equal, toItem: self.webViewContainer, attribute: .Bottom, multiplier: 1, constant: 0)]
-//        self.webViewContainer.addConstraints(constraints)
         self.webViewContainer.layoutIfNeeded()
         loading_indicator.startAnimating()
     }
@@ -63,4 +61,30 @@ class EXoWebBaseViewController: UIViewController, WKNavigationDelegate {
         print(error)
     }
     
+    func webView(webView: WKWebView, decidePolicyForNavigationResponse navigationResponse: WKNavigationResponse, decisionHandler: (WKNavigationResponsePolicy) -> Void) {
+        /*let response:NSHTTPURLResponse = navigationResponse.response as! NSHTTPURLResponse
+        let cookies = NSHTTPCookie.cookiesWithResponseHeaderFields(response.allHeaderFields as! Dictionary<String,String>, forURL: response.URL!)
+        print("decidePolicyForNavigationResponse")
+        for cookie:NSHTTPCookie in cookies {
+            print(cookie.description)
+            
+        }
+        */
+        decisionHandler(WKNavigationResponsePolicy.Allow);
+    }
+    
+    func webView(webView: WKWebView, decidePolicyForNavigationAction navigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Void) {
+        let request:NSURLRequest = navigationAction.request
+
+        print("---- decidePolicyForNavigationAction")
+        print (request.URL?.absoluteString)
+        let cookies = NSHTTPCookie.cookiesWithResponseHeaderFields(request.allHTTPHeaderFields!, forURL: request.URL!)
+
+        for cookie:NSHTTPCookie in cookies {
+            print(cookie.description)
+            
+        }
+        print("----")
+        decisionHandler(WKNavigationActionPolicy.Allow);
+    }
 }

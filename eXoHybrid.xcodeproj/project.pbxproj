@@ -25,9 +25,7 @@
 		9C9305951BC258CE0085DB76 /* SocialUserProfileProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305941BC258CE0085DB76 /* SocialUserProfileProxy.swift */; settings = {ASSET_TAGS = (); }; };
 		9C9305971BC258EF0085DB76 /* SocialProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9305961BC258EF0085DB76 /* SocialProxy.swift */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F421BC3B40E0022716B /* SocialProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F411BC3B40E0022716B /* SocialProxy.m */; settings = {ASSET_TAGS = (); }; };
-		9CDA7F431BC3B40E0022716B /* SocialProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F411BC3B40E0022716B /* SocialProxy.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F461BC3B42D0022716B /* SocialRestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */; settings = {ASSET_TAGS = (); }; };
-		9CDA7F471BC3B42D0022716B /* SocialRestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F761BC3B4EE0022716B /* SocialIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F771BC3B4EE0022716B /* SocialIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F5F1BC3B4EE0022716B /* SocialIdentity.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F781BC3B4EE0022716B /* SocialLike.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F611BC3B4EE0022716B /* SocialLike.m */; settings = {ASSET_TAGS = (); }; };
@@ -43,7 +41,6 @@
 		9CDA7F841BC3B6A90022716B /* MessageComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F851BC3B6A90022716B /* MessageComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F8B1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */; settings = {ASSET_TAGS = (); }; };
-		9CDA7F8C1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F8E1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9CDA7F8F1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9CDA7FC11BC4C54C0022716B /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FC01BC4C54C0022716B /* ShareViewController.m */; };
@@ -57,6 +54,10 @@
 		9CDA7FE11BC4C5A80022716B /* SocialSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD71BC4C5A80022716B /* SocialSpace.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7FE21BC4C5A80022716B /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FD91BC4C5A80022716B /* SpaceViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9CDA7FE31BC4C5A80022716B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FDB1BC4C5A80022716B /* UploadViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FEE1BC4CE640022716B /* defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FED1BC4CE640022716B /* defines.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FEF1BC4CE640022716B /* defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA7FED1BC4CE640022716B /* defines.swift */; settings = {ASSET_TAGS = (); }; };
+		9CDA7FF31BC4DD890022716B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA7FF21BC4DD890022716B /* ImageIO.framework */; };
+		9CDA7FF51BC4DD920022716B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA7FF41BC4DD920022716B /* MobileCoreServices.framework */; };
 		A2415A7FE3DFFA6D6CA1CA90 /* libPods-eXoHybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 878BE39092FE1DECB770DDF3 /* libPods-eXoHybrid.a */; };
 /* End PBXBuildFile section */
 
@@ -126,9 +127,7 @@
 		9C9305921BC258790085DB76 /* SocialUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialUserProfile.swift; sourceTree = "<group>"; };
 		9C9305941BC258CE0085DB76 /* SocialUserProfileProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialUserProfileProxy.swift; sourceTree = "<group>"; };
 		9C9305961BC258EF0085DB76 /* SocialProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialProxy.swift; sourceTree = "<group>"; };
-		9CDA7F401BC3B40E0022716B /* SocialProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialProxy.h; sourceTree = "<group>"; };
 		9CDA7F411BC3B40E0022716B /* SocialProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialProxy.m; sourceTree = "<group>"; };
-		9CDA7F441BC3B42D0022716B /* SocialRestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialRestConfiguration.h; sourceTree = "<group>"; };
 		9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialRestConfiguration.m; sourceTree = "<group>"; };
 		9CDA7F481BC3B45E0022716B /* defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
 		9CDA7F5E1BC3B4EE0022716B /* SocialIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialIdentity.h; sourceTree = "<group>"; };
@@ -144,7 +143,6 @@
 		9CDA7F681BC3B4EE0022716B /* SocialVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialVersion.h; sourceTree = "<group>"; };
 		9CDA7F691BC3B4EE0022716B /* SocialVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialVersion.m; sourceTree = "<group>"; };
 		9CDA7F831BC3B6A90022716B /* MessageComposerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposerViewController.swift; sourceTree = "<group>"; };
-		9CDA7F891BC3CFAE0022716B /* SocialUserProfileProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialUserProfileProxy.h; sourceTree = "<group>"; };
 		9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialUserProfileProxy.m; sourceTree = "<group>"; };
 		9CDA7F8D1BC3DC530022716B /* SpaceSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSelectionViewController.swift; sourceTree = "<group>"; };
 		9CDA7F901BC4C2AB0022716B /* eXoHybrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = eXoHybrid.entitlements; sourceTree = "<group>"; };
@@ -171,6 +169,13 @@
 		9CDA7FE41BC4C5B70022716B /* extension-defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "extension-defines.h"; sourceTree = "<group>"; };
 		9CDA7FE71BC4C8290022716B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		9CDA7FE91BC4C82C0022716B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		9CDA7FEA1BC4CB3E0022716B /* SocialProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialProxy.h; sourceTree = "<group>"; };
+		9CDA7FEB1BC4CB3E0022716B /* SocialRestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialRestConfiguration.h; sourceTree = "<group>"; };
+		9CDA7FEC1BC4CB3E0022716B /* SocialUserProfileProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialUserProfileProxy.h; sourceTree = "<group>"; };
+		9CDA7FED1BC4CE640022716B /* defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defines.swift; sourceTree = "<group>"; };
+		9CDA7FF01BC4DC280022716B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9CDA7FF21BC4DD890022716B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9CDA7FF41BC4DD920022716B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A81A52DD101CBDF4E3FA15E1 /* Pods-eXoHybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eXoHybrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eXoHybrid/Pods-eXoHybrid.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +206,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDA7FF51BC4DD920022716B /* MobileCoreServices.framework in Frameworks */,
+				9CDA7FF31BC4DD890022716B /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,9 @@
 		2644483FE3F60945F87576D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CDA7FF41BC4DD920022716B /* MobileCoreServices.framework */,
+				9CDA7FF21BC4DD890022716B /* ImageIO.framework */,
+				9CDA7FF01BC4DC280022716B /* CoreMedia.framework */,
 				878BE39092FE1DECB770DDF3 /* libPods-eXoHybrid.a */,
 			);
 			name = Frameworks;
@@ -292,6 +302,7 @@
 		9C4320691BBB8EBD00DE98CB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9CDA7FED1BC4CE640022716B /* defines.swift */,
 				9C93058E1BC220000085DB76 /* DataManager */,
 				9C43206A1BBB8F1100DE98CB /* Controllers */,
 				9C43206B1BBB8F1100DE98CB /* Models */,
@@ -378,11 +389,11 @@
 		9CDA7F3F1BC3B40E0022716B /* Proxies */ = {
 			isa = PBXGroup;
 			children = (
-				9CDA7F441BC3B42D0022716B /* SocialRestConfiguration.h */,
-				9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */,
-				9CDA7F401BC3B40E0022716B /* SocialProxy.h */,
+				9CDA7FEA1BC4CB3E0022716B /* SocialProxy.h */,
 				9CDA7F411BC3B40E0022716B /* SocialProxy.m */,
-				9CDA7F891BC3CFAE0022716B /* SocialUserProfileProxy.h */,
+				9CDA7FEB1BC4CB3E0022716B /* SocialRestConfiguration.h */,
+				9CDA7F451BC3B42D0022716B /* SocialRestConfiguration.m */,
+				9CDA7FEC1BC4CB3E0022716B /* SocialUserProfileProxy.h */,
 				9CDA7F8A1BC3CFAE0022716B /* SocialUserProfileProxy.m */,
 			);
 			path = Proxies;
@@ -689,6 +700,7 @@
 				9C43206F1BBB8F3D00DE98CB /* EXoWebBaseViewController.swift in Sources */,
 				9C4320791BBBD42500DE98CB /* Tool-Objective-C.m in Sources */,
 				9CDA7F8E1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */,
+				9CDA7FEE1BC4CE640022716B /* defines.swift in Sources */,
 				9CDA7F781BC3B4EE0022716B /* SocialLike.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,11 +709,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDA7F8C1BC3CFAE0022716B /* SocialUserProfileProxy.m in Sources */,
+				9CDA7FEF1BC4CE640022716B /* defines.swift in Sources */,
 				9CDA7F7B1BC3B4EE0022716B /* SocialPictureAttach.m in Sources */,
-				9CDA7F471BC3B42D0022716B /* SocialRestConfiguration.m in Sources */,
 				9C4320501BBB8DA900DE98CB /* eXoHybridTests.swift in Sources */,
-				9CDA7F431BC3B40E0022716B /* SocialProxy.m in Sources */,
 				9CDA7F811BC3B4EE0022716B /* SocialVersion.m in Sources */,
 				9CDA7F8F1BC3DC530022716B /* SpaceSelectionViewController.swift in Sources */,
 				9CDA7F771BC3B4EE0022716B /* SocialIdentity.m in Sources */,
@@ -1027,6 +1037,7 @@
 				9CDA7FCB1BC4C54C0022716B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

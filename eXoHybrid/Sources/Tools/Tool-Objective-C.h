@@ -10,5 +10,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Tool_Objective_C : NSObject
++(void) shareExtensionSave ;
 + (void)configureTextField:(UITextField *)tf withIcon:(NSString *)iconName;
 @end

@@ -10,12 +10,12 @@ import UIKit
 
 class SpaceSelectionViewController: UIViewController {
 
-    var spaceProxy:SocialSpaceProxy?
+//    var spaceProxy:SocialSpaceProxy?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        spaceProxy = SocialSpaceProxy()
-        spaceProxy.delegate = self
+//        spaceProxy = SocialSpaceProxy()
+//        spaceProxy.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
