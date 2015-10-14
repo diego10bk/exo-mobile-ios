@@ -801,6 +801,7 @@ NSMutableData * data;
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:postURL]];
         request.HTTPMethod = @"POST";
         [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        [request setValue:@"UTF-8" forHTTPHeaderField:@"Charset"];
         [request setValue:kUserAgentHeader forHTTPHeaderField:@"User-Agent"];
 
         
@@ -874,6 +875,7 @@ NSMutableData * data;
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:postURL]];
     request.HTTPMethod = @"POST";
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [request setValue:@"UTF-8" forHTTPHeaderField:@"Charset"];
     [request setValue:kUserAgentHeader forHTTPHeaderField:@"User-Agent"];
 
     
@@ -940,17 +942,13 @@ NSMutableData * data;
         postURL = [NSString stringWithFormat:@"%@?identity_id=%@", postURL, selectedSpace.spaceId];
     }
     NSString * imgSrc = item.imageURLFromLink? item.imageURLFromLink : @"";
-    NSString * pageWebTitle = item.pageWebTitle;
-    if (pageWebTitle==nil || pageWebTitle.length ==0){
-        pageWebTitle = postActivity.message;
-    }
     
     NSDictionary * templateParams = @{
                        @"comment":postActivity.message,
                        @"link":item.url.absoluteString,
                        @"description":@"",
                        @"image":imgSrc,
-                       @"title":pageWebTitle
+                       @"title":@" "
                        };
     NSDictionary * dictionary = @{@"type": item.type,
                                   @"title":postActivity.message,

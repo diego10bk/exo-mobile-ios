@@ -27,27 +27,12 @@ class ActvityStreamViewController: EXoWebBaseViewController {
         groupUserDefaults?.setFloat(1.25, forKey: "test")
         print (groupUserDefaults?.synchronize())
         
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    func updateAccountInfoForShareExtension () {
-
-        let accounts = [["username":"toan", "password":"123456", "serverURL":"192.168.1.67:8080", "accountName": "local"]]
-        var userDefaults = NSUserDefaults.init(suiteName: "group.com.exoplatform.mob.eXoPlatformiPHone")
-        userDefaults!.setObject(accounts, forKey: ShareExtension.ALL_ACCOUNTS)
-
-        for cookie:NSHTTPCookie in (NSHTTPCookieStorage.sharedHTTPCookieStorage().cookies)! {
-            print(cookie.description)
-            if (cookie.name == Cookies.username) {
-                NSUserDefaults.standardUserDefaults().setValue(cookie.value, forKey: ShareExtension.USERNAME)
-            }
-        }
-        
-    }
     
     @IBAction func shareAction(sender: AnyObject) {
         
@@ -68,15 +53,6 @@ class ActvityStreamViewController: EXoWebBaseViewController {
             }
             
         }
-        
-        let messageComposerNavi:UINavigationController = self.storyboard?.instantiateViewControllerWithIdentifier("NavigationMessageComposerController") as! UINavigationController
-        let messageComposerVC:MessageComposerViewController = messageComposerNavi.viewControllers.last as! MessageComposerViewController
-        
-        messageComposerVC.username = username
-        self.presentViewController(messageComposerNavi, animated: true) { () -> Void in
-            
-        }
-        
         
     }
 
